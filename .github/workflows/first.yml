@@ -1,0 +1,9 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  # this is the job's id
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello there!"
